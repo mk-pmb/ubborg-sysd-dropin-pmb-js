@@ -1,0 +1,31 @@
+{ "name": "ubborg-sysd-dropin-pmb",
+  "version": "0.1.0",
+  "description": "Generate ubborg file specs for systemd drop-in files.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/ubborg-sysd-dropin-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/ubborg-sysd-dropin-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/ubborg-sysd-dropin-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+  "main": "dropin.mjs",
+  "scripts": { "test": "nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+
+  "dependencies": {
+    "typechecks-pmb": "^0.200620.4"
+  },
+  "devDependencies": {
+    "nodemjs": "^0.1.8"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
